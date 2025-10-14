@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Find Lyrics</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu-Tang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wu-Tang Name</h1>
+    <p>Answer these 5 questions to get your Wu-Tang name!</p>
 
-        <h1>Find The Lyrics Of Your Favorite Song.</h1>
-        <input id = "text" type="text" name="text" placeholder="Enter the artist name">
-        <input id= "text1" type="text" name = text placeholder="Enter the song title">
+    <form id="survey">
+        <label>1. What is your favorite color?</label>
+        <input type="text" id="color">
 
-        <button type="button" name="button">Get Song</button>
-        <h2>Artist:</h2>
-        <p class="artist"></p>
-        
-        <h3>Song Title:</h3>
-        <p class="song"></p>
+        <label>2. What is your favorite animal?</label>
+        <input type="text" id="animal">
 
-        <h3>Lyrics:</h3>
-        <p class="lyrics"></p>
+        <label>What is your favorite body part?</label>
+        <input type="text" id="body">
 
-        <script type="text/javascript" src="main.js"></script>
+        <label>4. What is your favorite drink?</label>
+        <input type="text" id="drink">
 
-    </body>
+        <label>5. What is your favorite number?</label>
+        <input type="number" id="number">
 
+        <button type="button" id="button">Generate Wu-Tang Name</button>
+    </form>
+
+    <h2 class="wuName">Your Wu-Tang Name is:</h2>
+   
+
+    <script src="main.js"></script>
+</body>
 </html>
